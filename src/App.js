@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Todoitem from "./todoitem";
+import Todoitem from "./todoitem.js";
 import Tododata from "./tododata";
 
 class App extends React.Component {
