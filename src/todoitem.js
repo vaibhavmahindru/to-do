@@ -12,7 +12,7 @@ class todoitem extends Component {
         <input
           type="checkbox"
           checked={this.props.item.completed}
-          onChange={() => this.props.handleChange({ id: this.props.item.id })}
+          onChange={() => this.props.handleChange(this.props.item.id)}
         />
         <p style={this.props.item.completed ? this.changedStyle : null}>
           {this.props.item.text}
