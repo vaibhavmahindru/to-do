@@ -17,6 +17,7 @@ class App extends React.Component {
         }
         return todo;
       });
+
       return {
         todo: updatedTodos,
       };
